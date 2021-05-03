@@ -8,19 +8,19 @@ import {
     EmailField
  } from 'react-admin'
 
-const PostList = (props) => {
+const MemberList = (props) => {
     return (
         <List {...props}>
         <Datagrid>
             <TextField source='id'/>
             <TextField source='name'/>
             <EmailField source='email'/>
-            <EditButton basePath='/users'/>
-            <DeleteButton basePath='/users'/>
+            <EditButton basePath='/members'/>
+            <DeleteButton basePath='/members'/>
         </Datagrid>
     </List>
     )
    
     }
-    export default PostList;
+    export default MemberList;
 

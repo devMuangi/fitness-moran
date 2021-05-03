@@ -1,17 +1,18 @@
 import React from 'react'
 import { Create, SimpleForm, TextInput, DateInput} from 'react-admin'
 
-const UserCreate = (props) => {
+const EmployeeCreate = (props) => {
+    
     return (
-        <Create title="Create a user" {...props}>
+        <Create title="Add employee" {...props}>
             <SimpleForm>
-                <TextInput source='title'/>
                 <TextInput source='name'/>
                 <TextInput source='email'/>
-                <DateInput label='Published' source='publishedAt'/>
+                <DateInput label='joined on' source='publishedAt'/>
             </SimpleForm>   
         </Create>
     )
 }
 
-export default UserCreate
+export default EmployeeCreate
+

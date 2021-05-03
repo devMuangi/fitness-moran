@@ -4,9 +4,12 @@ import restProvider from 'ra-data-simple-rest'
 import PostList from './components/PostList'
 import PostCreate from './components/PostCreate'
 import PostEdit from './components/PostEdit'
-import UserList from './components/UserList'
-import UserCreate from './components/UserCreate'
-import UserEdit from './components/UserEdit'
+import MemberList from './components/MemberList'
+import MemberCreate from './components/MemberCreate'
+import MemberEdit from './components/MemberEdit'
+import EmployeeList from './components/EmployeeList'
+import EmployeeCreate from './components/EmployeeCreate'
+import EmployeeEdit from './components/EmployeeEdit'
 
 
 
@@ -14,7 +17,8 @@ import UserEdit from './components/UserEdit'
 function App() {
   return <Admin dataProvider={restProvider('http://localhost:3000')}>
     <Resource name='posts' list={PostList} create={PostCreate} edit={PostEdit}/>
-    <Resource name='users' list={UserList} create={UserCreate} edit={UserEdit}/>
+    <Resource name='members' list={MemberList} create={MemberCreate} edit={MemberEdit}/>
+    <Resource name='employees' list={EmployeeList} create={EmployeeCreate} edit={EmployeeEdit}/>
 
   </Admin>
   
