@@ -29,6 +29,12 @@
       "title": "Post 3",
       "body": "this is the post",
       "publishedAt": "10/10/21"
+    },
+    {
+      "title": "my name is ",
+      "body": "nnnnn",
+      "publishedAt": "",
+      "id": "JZOsnRg"
     }
   ],
   "users": [
@@ -37,6 +43,12 @@
       "name": "John Doe",
       "email": "john@example.com",
       "publishedAt": "10/10/21"
+    },
+    {
+      "name": "David Mwangi",
+      "email": "devmuangi@gmail.com",
+      "publishedAt": "2021-05-04",
+      "id": "p2bWrr6"
     }
   ]
 }
