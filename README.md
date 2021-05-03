@@ -1,4 +1,7 @@
 # fitness-moran
+clone the repo
+
+install dependencies using npm install
 
 run npm run dev 
 
